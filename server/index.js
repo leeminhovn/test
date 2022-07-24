@@ -23,7 +23,7 @@ console.log(err.message);
 process.exit(1);
     }
 }
-//sdfds
+//sdf
 connectDB();
 app.use('/api/post',postRouter);
 app.use('/',testRoute);
